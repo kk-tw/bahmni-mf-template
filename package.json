@@ -11,7 +11,7 @@
         "eslint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
         "stylelint": "stylelint src/**/*.{js,jsx,ts,tsx}",
         "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}'",
-        "test": "jest --config ./config/jest.config.js --passWithNoTests",
+        "test": "jest --config ./config/jest.config.js --passWithNoTests --coverage=false",
         "test:coverage": "jest --config ./config/jest.config.js --coverage",
         "test:watch": "yarn run test --watch",
         "lint:staged": "lint-staged",
